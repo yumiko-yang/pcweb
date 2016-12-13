@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云端作品</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script>
+        $(function(){
+            var marginTop=['50px','30px','17px','30px','0','20Px','50px','-5px','66px','0']
+            var paddingTop=['50px','100px','100px','50px','60px','45Px','58px','65px','47px','96px']
+
+            $('.proMain dd').each(function(i){
+                $(this).css("margin-top",marginTop[i])
+                        .find('a').css("padding-top",paddingTop[i]).attr("href","proDetail.html")
+
+
+            })
+
+        })
+    </script>
+
+</head>
+<body>
+<div class="header">
+    <div class="inner">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="logoa">
+            <img src="images/rightbg.png">
+        </div>
+    </div>
+</div>
+<div class="proMain">
+    <div class="inner">
+        <p class="title">云端作品</p>
+        <p class="cul"> cloud works </p>
+        <div class="abM">
+            <dl class="clear">
+                <dt>网络大电影</dt>
+                <dd><a>106凶间</a></dd>
+                <dd><a>盘龙</a> </dd>
+                <dd><a>地铁诡事</a></dd>
+                <dd><a>极品租客俏房东</a></dd>
+                <dd><a>女总裁的贴身高手</a></dd>
+                <dd><a>大牌宠妻是辣妹</a> </dd>
+                <dd><a>近身兵王</a> </dd>
+                <dd><a>权少的贴身翻译官</a> </dd>
+                <dd><a>晚安小妞</a> </dd>
+                <dd><a>首席的夜妻</a></dd>
+            </dl>
+        </div>
+        <div class="tab">
+            <ul class="clear mainUl">
+                <li ><a class="tabBg" href="proDetail.html">电影作品</a></li>
+                <li ><a href="proDetail.html">电视剧作品</a></li>
+
+                <li><a href="proDetail.html">迷你剧</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footerNav">
+    <ul class="inner clear">
+        <li><a href="index.html">首页</a><span>PAGE HOME</span> </li>
+        <li><a href="about.html">关于云端</a><span>About</span> </li>
+        <li class="bg"><a href="javascript:;">云端作品</a><span>Works</span> </li>
+        <li><a href="broker.html">艺人经纪</a> <span>artist</span></li>
+        <li><a href="javascript:;">集团控股</a><span>group</span> </li>
+        <li><a href="javascript:;">云合大数据</a><span>data</span> </li>
+        <li><a href="javascript:;">泛生活产品</a><span>entertainm</span> </li>
+    </ul>
+</div>
+<div class="footer inner">
+    <p>版权所属：北京云端文化传媒股份有限公司 Copyright © YUNDUAN</p>
+
+</div>
+
+</body>
+</html>

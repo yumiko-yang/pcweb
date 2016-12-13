@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于云端</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script>
+        $(function(){
+            $('.abM>div').eq(0).show().siblings().hide()
+            $('.tab li').on('click',function(){
+                $('.tab li').removeClass()
+                $(this).addClass('tabBg')
+                var index=$(this).index()
+                $('.abM>div').eq(index).fadeIn(2000).siblings().hide()
+            })
+            $('.abMculture>div').eq(0).show().siblings('div').hide()
+            $('.abMculture li').on('mouseover',function(){
+                $('.abMculture li').removeClass()
+                $(this).addClass('liBg after')
+                var index=$(this).index()
+                $('.abMculture>div').eq(index).slideDown().siblings('div').slideUp()
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="header">
+    <div class="inner">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="logoa">
+            <img src="images/rightbg.png">
+        </div>
+    </div>
+</div>
+<div class="aboutMain">
+    <div class="inner">
+        <p class="title">企业文化 </p>
+        <p class="cul">Culture</p>
+        <div class="abM">
+            <div class="abMtext">
+
+                <p>北京云端文化传媒股份有限公司成立于2011年8月，是一家从事IP影视剧制作及发行，泛生活IP运营，新媒体整合营销、艺人经纪，艺术学校等业务的综合性传媒公司。<br><br>
+                    云端传媒旗下控股子公司，包括云来乐、云梵文化、云端互娱、云端影业、云端艺校等，每一个子公司，都是以IP内容为核心的泛生活产业运营的具体应用，搭建”IP+大数据+整合营销+衍生品+艺人+艺术培训”的产业链，全版权泛生活一体化运营，构建属于新时代的云核变体系。<br><br>
+                    IP运营体系上，云端传媒前瞻性地以大数据助力精准营销，兄弟公司云合数据，深耕影视娱乐垂直领域数据挖掘，致力于通过机器学习不断提升行业洞察力，以预测性分析支持影视娱乐项目全流程决策。<br><br>
+                    云端传媒高度关注移动互联网视频业务在当今社会的发展态势，从2013年开始，全面布局移动互联网，当前已成为中国移动、中国电信、中国联通三大运营商的全网CP(内容提供商)，并已经与咪咕视讯、咪咕阅读、天翼视讯等合作方进行了广泛且深入的合作。<br><br>
+                    目前公司已经在全国中小企业股份转让系统（新三板）挂牌上市，股票代码836628。</p>
+
+            </div>
+            <div class="abMculture">
+                <ul class="clear">
+                    <li class="liBg after">
+                        <p>起</p>
+                        <p>rise</p>
+                    </li>
+                    <li>
+                        <p>承</p>
+                        <p> Bearing</p>
+                    </li>
+                    <li>
+                        <p>转</p>
+                        <p>turn</p>
+                    </li>
+                    <li>
+                        <p>合</p>
+                        <p>close</p>
+                    </li>
+                </ul>
+                <div class="abMCtext">
+                    1北京云端文化传媒股份有限公司成立于2011年8月，是一家从事IP影视剧制作及发行，泛生活IP运营，新媒体整合营销、艺人经纪，艺术学校等业务的综合性传媒公司。<br>
+                    云端传媒旗下控股子公司，包括云来乐、云梵文化、云端互娱、云端影业、云端艺校等，每一个子公司，都是以IP内容为核心的泛生活产业运营的具体应用，搭建”IP+大数据+整合营销+衍生品+艺人+艺术培训”的产业链，全版权泛生活一体化运营，构建属于新时代的云核变体系。
+                </div>
+                <div class="abMCtext">
+                    2北京云端文化传媒股份有限公司成立于2011年8月，是一家从事IP影视剧制作及发行，泛生活IP运营，新媒体整合营销、艺人经纪，艺术学校等业务的综合性传媒公司。<br>
+                    云端传媒旗下控股子公司，包括云来乐、云梵文化、云端互娱、云端影业、云端艺校等，每一个子公司，都是以IP内容为核心的泛生活产业运营的具体应用，搭建”IP+大数据+整合营销+衍生品+艺人+艺术培训”的产业链，全版权泛生活一体化运营，构建属于新时代的云核变体系。
+                </div>
+                <div class="abMCtext">
+                    3北京云端文化传媒股份有限公司成立于2011年8月，是一家从事IP影视剧制作及发行，泛生活IP运营，新媒体整合营销、艺人经纪，艺术学校等业务的综合性传媒公司。<br>
+                    云端传媒旗下控股子公司，包括云来乐、云梵文化、云端互娱、云端影业、云端艺校等，每一个子公司，都是以IP内容为核心的泛生活产业运营的具体应用，搭建”IP+大数据+整合营销+衍生品+艺人+艺术培训”的产业链，全版权泛生活一体化运营，构建属于新时代的云核变体系。
+                </div>
+                <div class="abMCtext">
+                    4北京云端文化传媒股份有限公司成立于2011年8月，是一家从事IP影视剧制作及发行，泛生活IP运营，新媒体整合营销、艺人经纪，艺术学校等业务的综合性传媒公司。<br>
+                    云端传媒旗下控股子公司，包括云来乐、云梵文化、云端互娱、云端影业、云端艺校等，每一个子公司，都是以IP内容为核心的泛生活产业运营的具体应用，搭建”IP+大数据+整合营销+衍生品+艺人+艺术培训”的产业链，全版权泛生活一体化运营，构建属于新时代的云核变体系。
+                </div>
+            </div>
+            <div class="abMenvir clear">
+                <div class="images imageOne">
+                    <img src="images/envir3.png">
+                </div>
+                <div class="images imageOne imageTwo">
+                    <img src="images/envir4.png">
+                    <img src="images/envir1.png">
+                </div>
+                <div class="images imageThree">
+                    <img src="images/envir2.png">
+                </div>
+                <div class="images imagefour">
+                    <img src="images/envir5.png">
+                    <img src="images/envir6.png">
+                </div>
+            </div>
+            <div class="abMnews clear">
+                <a href="newsDetail.html" class="news">
+                    <div class="top newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                    <div class="bottom newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                </a>
+                <a href="newsDetail.html" class="news">
+                    <div class="top newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                    <div class="bottom newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                </a>
+                <a href="newsDetail.html" class="news">
+                    <div class="top newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                    <div class="bottom newsBox">
+                        <div class="left "><p>AUG</p><p>23</p> </div>
+                        <div class="right"><h3>云端“白宫”正确打开方式</h3><p>2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中，云端传媒正式落址弘园5号文化创意园。2016r年8月28日，在小伙伴们的殷勤期盼中，在缤纷的礼炮声中</p><span>2016-08-23</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="tab">
+            <ul class="clear">
+                <li class="tabBg">关于我们</li>
+                <li>企业文化</li>
+                <li>办公环境</li>
+                <li>新闻中心</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footerNav">
+    <ul class="inner clear">
+        <li><a href="index.html">首页</a><span>PAGE HOME</span> </li>
+        <li class="bg"><a href="javascript:;">关于云端</a><span>About</span> </li>
+        <li><a href="production.html">云端作品</a><span>Works</span> </li>
+        <li><a href="broker.html">艺人经纪</a> <span>artist</span></li>
+        <li><a href="javascript:;">集团控股</a><span>group</span> </li>
+        <li><a href="javascript:;">云合大数据</a><span>data</span> </li>
+        <li><a href="javascript:;">泛生活产品</a><span>entertainm</span> </li>
+    </ul>
+</div>
+<div class="footer inner">
+    <p>版权所属：北京云端文化传媒股份有限公司 Copyright © YUNDUAN</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,532 @@
+
+body,h1,h2,h3,h4,h5,h6,dl,dd,dt,ul,li,input,p{
+    margin:0;
+    padding:0;
+}
+img{
+    border: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#000
+}
+img{
+    border: none;
+}
+body{
+    position: relative;
+    background: url("../images/bg.png") no-repeat top/cover;
+}
+.clear:after{
+    content: "200B";
+    font-size: 0;
+    height:0;
+    display: block;
+    clear: both;
+}
+.inner{
+    width: 85%;
+    margin:0 auto;
+}
+.header{
+    height:109px;
+    padding:10px
+}
+.header .logo{
+    width: 80px;
+    float: left;
+}
+.header .logoa{
+    float: right;
+}
+.mainNav{
+    padding:100px 0;
+}
+.mainNav li{
+    float: left;
+    width: 112px;
+    height:300px;
+    word-wrap: break-word;
+    margin-right:6%
+}
+
+.mainNav li p{
+    font-size: 53px;
+    float: left;
+    width:35px;
+}
+.mainNav li span{
+    float: right;
+    width:38px;
+    height:70px;
+    margin-top:10px;
+
+}
+.footerNav {
+    padding:20px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.footerNav li{
+    width:10%;
+    font-size: 15px;
+    height: 38px;
+    line-height: 20px;
+    padding-top:20px ;
+    text-align: center;
+
+}
+.footerNav li:first-child{
+    text-align: left
+}
+.footerNav li a{
+    color: #000;
+    display: block;
+}
+.footerNav li span{
+    color: red;
+    text-transform: uppercase;
+}
+.footerNav li:hover{
+    background: url("../images/footerbg.png") no-repeat center/cover;
+}
+.bg{
+    background: url("../images/footerbg.png") no-repeat center/cover;
+}
+.footer{
+    padding-top:25px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.footer img{
+    width:25px;
+    height:15px;
+}
+ .title{
+    font-size: 35px;
+    height:45px;
+    line-height: 45px;
+}
+ .cul{
+    font-size: 25px;
+    height:25px;
+    line-height: 25px;
+    color: red;
+    text-transform: uppercase;
+}
+.abM{
+    min-height: 400px;
+    padding:50px 0;
+}
+.aboutMain .abMtext{
+    width: 83%;
+}
+.aboutMain .abMtext p{
+     font-size: 16px;
+     line-height: 16px;
+ }
+.tab li{
+    cursor: pointer;
+    font-size: 14px;
+    float: left;
+    height: 90px;
+    border: 1px solid silver;
+    width: 20px;
+    padding: 10px 5px;
+    margin-right:3%;
+    text-align: center;
+}
+
+.tab li:hover{
+    color: #fff;
+    background-color: #006cae;
+}
+
+.tabBg{
+    color: #fff;
+    background-color: #006cae;
+}
+.tab .aboNews{
+
+    padding:0px;
+    width:30px;
+    height:110px
+}
+.aboNews a{
+    display: block;
+    height: 90px;
+    width: 20px;
+    padding: 10px 5px;
+
+}
+.aboutMain .tab a:hover{
+    color: #fff;
+    background-color: #006cae;
+
+}
+.aboutMain .abMculture{
+width:83%;
+    color: #3f5664;
+    display: none;
+}
+.aboutMain .abMculture ul{
+    height: 200px;
+
+    border-bottom:2px solid #3f5664;
+}
+.aboutMain .abMculture .liBg{
+    background-color:#fff ;
+    color: #3f5664;
+}
+.aboutMain .abMculture li{
+    float: left;
+    text-align: center;
+    width:140px;
+    height:100px;
+    padding-top:40px;
+    margin-right:14%;
+    border: 2px solid #3f5664;
+    border-radius: 50%;
+    background-color:#3f5664 ;
+    color: #fff;
+    position: relative;
+}
+.after:after{
+    content: '';
+    height:60px;
+    width:1px;
+    position: absolute;
+    background-color: #3f5664;
+    left: 50%;
+    bottom: -60px;
+}
+.aboutMain .abMculture li p:first-child{
+    font-size: 27px;
+
+}
+.aboutMain .abMculture li p:nth-child(2){
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.aboutMain .abMculture li:last-child{
+    margin-right:0
+ }
+.aboutMain .abMculture .abMCtext{
+    padding:50px 0
+}
+.aboutMain .abMenvir .images{
+    height:388px;
+    overflow: hidden;
+    float: left;
+    margin-right:5px;
+}
+.aboutMain .abMenvir .imageOne{
+    width:226px;
+
+}
+.aboutMain .abMenvir .imageTwo img{
+    margin:3px 0
+}
+.aboutMain .abMenvir .imageThree{
+    width:252px;
+}
+.aboutMain .abMenvir .imagefour {
+     width:242px;
+ }
+.aboutMain .abMenvir .imagefour img{
+    height:194px;
+    width:342px;
+}
+.aboutMain .abMnews .news{
+    display: block;
+    float: left;
+    width:350px;
+    height:350px;
+    border-right:1px solid #dcdcdc;
+    padding: 0 15px;
+}
+.aboutMain .abMnews .news>div{
+   height:149px;
+    padding-top:25px
+}
+
+.aboutMain .abMnews .news .top{
+    border-bottom: 1px solid silver;
+}
+.aboutMain .abMnews .news:last-child{
+     border-right:none;
+ }
+.aboutMain .abMnews .left{
+    float: left;
+}
+.aboutMain .abMnews .left p:nth-child(2){
+    font-size: 24px;
+}
+.aboutMain .abMnews .left p:nth-child(1){
+     font-size: 16px;
+ }
+.aboutMain .abMnews .right{
+    float: right;
+    width:290px;
+    font-size: 10px;
+    color:#34495e ;
+}
+.aboutMain .abMnews .right p{
+    padding:5px 0 25px 0
+}
+.aboutMain .abMnews .right span{
+    color:red
+}
+
+.proMain dl{
+    padding-left:70px
+}
+.proMain dt,.proMain dd{
+    cursor: pointer;
+    float: left;
+    padding:0 30px;
+    text-align: center;
+    font-family: "微软雅黑";
+    word-wrap: break-word;
+    border-right:1px dashed #000 ;
+}
+.proMain a:hover{
+    color:#006caf;
+}
+.proMain dt {
+    font-size: 30px;
+    width: 30px;
+    height: 320px;
+}
+.proMain dd{
+    font-size: 24px;
+    line-height: 25px;
+    width: 20px;
+    font-weight: lighter;
+    height:290px;
+}
+.proMain dd:last-child{
+    border:none
+}
+.proMain a{
+    display: block;
+}
+.broMain .broP{
+    width:345px;
+    height:480px;
+    border: 3px solid silver;
+    padding: 7px;
+    float: left;
+    margin-right: 55px;
+    display: block;
+
+}
+
+.broMain .broP1{
+    border: 2px solid silver;
+    text-align: center;
+    width:337px;
+    height:473px;
+    font-size: 0;
+    padding: 3px;
+}
+
+.broMain .broP1 img{
+    width:333px;
+    height:472px;
+
+}
+.broMain .detil .personal{
+    float: left;
+    width:50%;
+}
+.broMain .detil .personal li{
+    float: left;
+    width:25px;
+    padding:0 15px;
+    font-size: 24px;
+}
+
+.broMain .detil .photoes{
+    position: absolute;
+    right:0;
+    top:0;
+    height:100%;
+    background-color: #e8e8e8;
+    z-index:-1;
+    text-align: right;
+    padding-top:300px
+}
+.broMain .detil .photoes img{
+    position: absolute;
+    width:80%;
+    top:200px;
+    right: 0;
+}
+.broMain .detil .broP,.broMain .detil .broP1{
+    border-color: #006cae;
+}
+.broMain .detil .photoes img{
+    display: block;
+    margin:0 3%;
+}
+/*.broMain .detil span{
+    width:16px;
+    height:89px;
+    border: 1px solid #000;
+    padding:20px 11px;
+    display: block;
+    float: right;
+    margin:0 5px
+}*/
+.mainUl li{
+    padding: 0;
+    width:30px;
+    height:110px;
+    color: #000;
+}
+.mainUl a{
+    display: block;
+    height: 90px;
+    padding:10px 5px;
+
+}
+.mainUl a:hover{
+    color: #fff;
+    background-color: #006cae;
+}
+.proMain .mainUl li:last-child a{
+    padding-top:20px
+}
+.broMain .mainUl a{
+    height: 80px;
+    padding-top:20px
+}
+.detText,.detPhotoes{
+    width:50%
+}
+ .detText{
+    float: left;
+    position: relative;
+}
+ .detPhotoes{
+    float: right;
+    position: absolute;
+    top:0;
+    right:0;
+    height:100%;
+    background-color: #e4e4e4;
+    z-index:-1
+}
+ .detText h1{
+    font-size: 25px;
+    color: #34495e;
+    height:40px;
+    margin-bottom: 24px;
+}
+ .detText h1 span{
+    font-size: 14px;
+    color: red;
+    margin-left:7px;
+}
+ .detText p{
+    line-height: 23px;
+}
+.detText p span{
+    letter-spacing: 64px;
+}
+.detText .produce{
+    margin:24px 40px 0 0
+}
+ .detText .detNav{
+    position: absolute;
+    top:-20px;
+    right:40px
+}
+.detText .detNav li{
+    float: left;
+    height:109px;
+
+}
+.detText .detNav li:first-child{
+    border-right:1px dashed silver ;
+}
+
+.detText .detNav a{
+    text-align: center;
+    display: block;
+    width: 15px;
+    padding:0 10px;
+}
+.detText .detNav a:hover{
+    color: #006cae;
+}
+ .detText .detNav li:first-child a{
+    height:100px;
+    padding-top:10px;
+    margin-top:10px;
+    border-left:1px dashed silver ;
+}
+ .detText .detNav li:last-child a{
+    height:100px;
+    padding-top:10px;
+    margin-top:10px;
+    border-right:1px dashed silver ;
+
+}
+.detPhotoes .detBig{
+    height: 274px;
+    width:484px;
+    border: 5px solid #545454;
+    padding:8px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.detPhotoes .detSmall{
+    width:475px;
+    height:264px;
+    border: 2px solid #545454;
+    padding:3px;
+
+}
+.detPhotoes .detSmall img{
+    width:100%;
+    height: 100%;
+}
+.span{
+    position: absolute;
+    right:100px;
+    bottom:160px;
+}
+.span span{
+
+    display: block;
+    float:right;
+    width:25px;
+    height:50px;
+    text-align: center;
+    border: 1px solid #000;
+    margin-right: 10px;
+    padding:15px 0 30px 0;
+}
+.span span:hover{
+    background: #006cae;
+    color: #fff;
+}
+.aboutMain .abProduce{
+    font-size: 14px;
+    color:#34495e ;
+}
+.broMain .detil .span{
+    bottom: 52px;
+}

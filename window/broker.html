@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>艺人经纪</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script>
+        $(function(){
+
+            $(".broPx .broP").on('mouseover',function(){
+                $(this).css('border-color','#006cad').find('.broP1').css('border-color','#006cad')
+            })
+            $(".broPx .broP").on('mouseout',function(){
+                $(this).css('border-color','silver').find('.broP1').css('border-color','silver')
+            })
+        })
+    </script>
+
+</head>
+<body>
+<div class="header">
+    <div class="inner">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="logoa">
+            <img src="images/rightbg.png">
+        </div>
+    </div>
+</div>
+<div class="broMain">
+    <div class="inner">
+        <p class="title">艺人经纪 </p>
+        <p class="cul">artist</p>
+         <div class="abM clear broPx" >
+            <a href="brokerDetail.html" class="broP">
+                <div class="broP1">
+                    <img src="images/broker_03.png">
+                </div>
+            </a>
+            <a href="brokerDetail.html" class="broP">
+                <div class="broP1">
+                    <img src="images/broker_05.png">
+                </div>
+            </a>
+            <a href="brokerDetail.html" class="broP">
+                <div class="broP1">
+                    <img src="images/broker_07.png">
+                </div>
+            </a>
+        </div>
+        <div class="tab">
+            <ul class="clear mainUl">
+                <li><a class="tabBg" href="brokerDetail.html">张沐莀</a></li>
+                <li><a href="brokerDetail.html">陆钧彦</a></li>
+                <li><a href="brokerDetail.html">赵予熙</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="footerNav">
+        <ul class="inner clear">
+            <li><a href="index.html">首页</a><span>PAGE HOME</span> </li>
+            <li><a href="about.html">关于云端</a><span>About</span> </li>
+            <li ><a href="production.html">云端作品</a><span>Works</span> </li>
+            <li class="bg"><a href="javascript:;">艺人经纪</a> <span>artist</span></li>
+            <li><a href="javascript:;">集团控股</a><span>group</span> </li>
+            <li><a href="javascript:;">云合大数据</a><span>data</span> </li>
+            <li><a href="javascript:;">泛生活产品</a><span>entertainm</span> </li>
+        </ul>
+    </div>
+    <div class="footer inner">
+        <p>版权所属：北京云端文化传媒股份有限公司 Copyright © YUNDUAN</p>
+
+    </div>
+
+</body>
+</html>
